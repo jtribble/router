@@ -178,7 +178,7 @@ tokio = { version = "1.24.2", features = ["full"] }
 tokio-stream = { version = "0.1.12", features = ["sync", "net"] }
 tokio-util = { version = "0.7.7", features = ["net", "codec", "time"] }
 # TODO: unpin once the otlp dependency is up to date
-tonic = { version = "0.8.3", features = ["transport", "tls", "tls-roots", "gzip"] }
+tonic = { version = "=0.8.3", features = ["transport", "tls", "tls-roots", "gzip"] }
 tower = { version = "0.4.13", features = ["full"] }
 tower-http = { version = "0.4.0", features = [
     "add-extension",
